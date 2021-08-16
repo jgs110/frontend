@@ -1,9 +1,9 @@
 import React from "react";
 
-const Home = () => {
+const About = () => {
   return (
-    <div className="mb-20 font-sans">
-      <h1 className="sm:text-4xl text-2xl font-bold mt-6">Hello, Welcome!</h1>
+    <div className="mb-20 w-full font-sans">
+      <h1 className="sm:text-4xl text-2xl font-bold mt-6">About</h1>
       <p className="mx-auto leading-relaxed text-base mb-4">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
         corrupti? Totam voluptate asperiores, aut dolorem dolores hic sequi esse
@@ -26,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
